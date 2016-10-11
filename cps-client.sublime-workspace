@@ -1,0 +1,197 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projects/cps-client"
+	],
+	"file_history":
+	[
+		"/C/projects/cps-client/gulpfile.js",
+		"/C/projects/yo-angular/gulpfile.js",
+		"/C/projects/yo-angular/app/index.html",
+		"/C/projects/yo-angular/package.json",
+		"/C/projects/yo-angular/bower.json",
+		"/C/projects/yo-angular/app/scripts/controllers/main.js",
+		"/C/projects/yo-angular/app/views/main.html",
+		"/C/projects/yo-angular/app/scripts/app.js",
+		"/C/projects/yo-angular/app/styles/main.css",
+		"/C/projects/yo-angular/test/spec/controllers/main.js",
+		"/C/projects/yo-angular/test/spec/controllers/about.js",
+		"/C/Dev/AMEB2/Main/Source/rebuild.cmd",
+		"/C/Dev/AMEB2/Main/Source/DETA.AMEB2.sln",
+		"/C/Dev/AMEB2/Main/Source/ReleasePackages/Zone1/AMEBInternal/DETA.AMEB.Web.Forms.deploy.cmd",
+		"/C/Users/jxayl0/Downloads/Azure-Angularjs-master/index.html",
+		"/C/Users/jxayl0/Downloads/Azure-Angularjs-master/assets/app.js",
+		"/C/Users/jxayl0/Downloads/Azure-Angularjs-master/web.config",
+		"/C/projects/coreSpa/README.md",
+		"/C/Dev/AMEB2/Branches/Dev/Source/DETA.AMEB.Web.Forms/DETA.AMEB.Web.Forms.csproj",
+		"/C/Dev/MyServices/Dev/Source/MyServices.sln",
+		"//sco8834alm014.res.eq.edu.au/MSBuild2010/MyTech-DEV/MyTech-DEV_20160818.2/Azure/Web.Release.config",
+		"//sco8834alm014.res.eq.edu.au/MSBuild2010/MyTech-DEV/MyTech-DEV_20160818.2/Azure/Web.Debug.config",
+		"//sco8834alm014.res.eq.edu.au/MSBuild2010/MyTech-DEV/MyTech-DEV_20160818.2/Azure/Web.config",
+		"//sco8834alm014.res.eq.edu.au/MSBuild2010/MyTech-DEV/MyTech-DEV_20160818.2/MyServices.CorpDashboard.Azure/_PublishedWebsites/MyServices.Corporate.Web/Web.config",
+		"//sco8834alm014.res.eq.edu.au/MSBuild2010/MyTech-DEV/MyTech-DEV_20160818.2/MyServices.CorpDashboard.Azure/_PublishedWebsites/MyServices.Corporate.Web/Web.Release.config",
+		"/C/Users/jxayl0/Downloads/TestJsonWebAsync/TestJsonWebAsync/JsonWebAsync/JsonWebClient.cs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ReleaseArtifacts",
+			"zip",
+			"Validation.Integration.AspNet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cps-client.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
