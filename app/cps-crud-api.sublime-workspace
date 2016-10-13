@@ -3,10 +3,38 @@
 	{
 		"selected_items":
 		[
+			[
+				"pro",
+				"product"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/projects/cps-crud-api/app.js",
+			"settings":
+			{
+				"buffer_size": 510,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/projects/cps-crud-api/routes/products.js",
+			"settings":
+			{
+				"buffer_size": 1669,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/projects/cps-crud-api/models/product.js",
+			"settings":
+			{
+				"buffer_size": 226,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -53,10 +81,18 @@
 	},
 	"expanded_folders":
 	[
-		"/C/projects/cps-crud-api"
+		"/C/projects/cps-crud-api",
+		"/C/projects/cps-crud-api/bin",
+		"/C/projects/cps-crud-api/models",
+		"/C/projects/cps-crud-api/routes"
 	],
 	"file_history":
 	[
+		"/C/projects/cps-crud-api/app.js",
+		"/C/projects/cps-crud-api/package.json",
+		"/C/projects/cps-crud-api/models/product.js",
+		"/C/projects/cps-crud-api/routes/products.js",
+		"/C/projects/cps-crud-api/bin/www.js",
 		"/C/projects/cps-client/app/index.html",
 		"/C/projects/cps-client/app/views/main.html",
 		"/C/projects/cps-client/app/styles/main.css",
@@ -102,7 +138,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -113,9 +149,11 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Movie",
+			"movie",
 			"ReleaseArtifacts",
 			"zip",
 			"Validation.Integration.AspNet"
@@ -126,6 +164,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Product",
+			"product"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -136,8 +176,95 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/projects/cps-crud-api/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/projects/cps-crud-api/routes/products.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1218,
+								1218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/projects/cps-crud-api/models/product.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -147,7 +274,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -198,12 +325,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\projects\\cps-client\\cps-client.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
