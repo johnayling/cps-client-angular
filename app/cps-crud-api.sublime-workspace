@@ -4,23 +4,31 @@
 		"selected_items":
 		[
 			[
-				"pro",
-				"product"
+				"r",
+				"routes"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/projects/cps-crud-api/app.js",
+			"file": "/C/Projects/cps-crud-api/app.js",
 			"settings":
 			{
-				"buffer_size": 656,
+				"buffer_size": 700,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/projects/cps-crud-api/routes/products.js",
+			"file": "/C/Projects/cps-crud-api/bin/www.js",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Projects/cps-crud-api/routes/products.js",
 			"settings":
 			{
 				"buffer_size": 1611,
@@ -28,18 +36,47 @@
 			}
 		},
 		{
-			"file": "/C/projects/cps-crud-api/models/product.js",
+			"file": "/C/Projects/cps-crud-api/routes/licenses.js",
 			"settings":
 			{
-				"buffer_size": 227,
+				"buffer_size": 1611,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/projects/cps-crud-api/bin/www.js",
+			"file": "/C/Projects/cps-crud-api/routes/generators.js",
 			"settings":
 			{
-				"buffer_size": 207,
+				"buffer_size": 1649,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Projects/cps-crud-api/models/license.js",
+			"settings":
+			{
+				"buffer_size": 513,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Projects/cps-crud-api/models/generator.js",
+			"settings":
+			{
+				"buffer_size": 733,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Projects/cps-crud-api/models/product.js",
+			"settings":
+			{
+				"buffer_size": 227,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -89,27 +126,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/projects/cps-crud-api",
-		"/C/projects/cps-crud-api/bin",
-		"/C/projects/cps-crud-api/models",
-		"/C/projects/cps-crud-api/routes"
+		"/C/Projects/cps-crud-api",
+		"/C/Projects/cps-crud-api/bin",
+		"/C/Projects/cps-crud-api/node_modules/bson/ext"
 	],
 	"file_history":
 	[
-		"/C/projects/cps-crud-api/app.js",
-		"/C/projects/cps-crud-api/package.json",
-		"/C/projects/cps-crud-api/models/product.js",
-		"/C/projects/cps-crud-api/routes/products.js",
-		"/C/projects/cps-crud-api/bin/www.js",
+		"/C/Projects/cps-crud-api/node_modules/bson/ext/index.js",
+		"/C/Projects/cps-client-angular/app/index.html",
+		"/C/Projects/cps-client-angular/app/views/main.html",
+		"/C/Projects/cps-client-angular/app/styles/main.css",
+		"/C/Projects/cps-client-angular/app/scripts/app.js",
+		"/C/Projects/cps-client-angular/bower.json",
+		"/C/Projects/cps-client-angular/app/scripts/services/productservice.js",
 		"/C/projects/cps-client/app/index.html",
-		"/C/projects/cps-client/app/views/main.html",
-		"/C/projects/cps-client/app/styles/main.css",
-		"/C/projects/cps-client/app/scripts/services/productservice.js",
-		"/C/projects/cps-client/app/scripts/app.js",
-		"/C/projects/cps-client/bower.json",
 		"/C/projects/cps-client/app/scripts/controllers/main.js",
 		"/C/projects/cps-client/test/spec/controllers/main.js",
+		"/C/projects/cps-client/app/views/main.html",
 		"/C/projects/cps-client/gulpfile.js",
+		"/C/projects/cps-client/app/scripts/app.js",
+		"/C/projects/cps-client/bower.json",
 		"/C/projects/cps-client/README.md",
 		"/C/Users/jxayl0/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/jxayl0/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
@@ -118,6 +154,7 @@
 		"/C/projects/cps-client/dist/scripts/vendor.js",
 		"/C/projects/cps-client/dist/scripts/scripts.js",
 		"/C/projects/cps-client/app/scripts/controllers/about.js",
+		"/C/projects/cps-client/app/styles/main.css",
 		"/C/projects/yo-angular/gulpfile.js",
 		"/C/projects/yo-angular/app/index.html",
 		"/C/projects/yo-angular/package.json",
@@ -146,7 +183,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 47.0
 	},
 	"find_in_files":
 	{
@@ -160,8 +197,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"Movie",
-			"movie",
+			"Integer",
+			"Product",
+			"product",
+			"Product",
+			"product",
+			"products",
 			"ReleaseArtifacts",
 			"zip",
 			"Validation.Integration.AspNet"
@@ -172,8 +213,13 @@
 		"regex": false,
 		"replace_history":
 		[
-			"Product",
-			"product"
+			"Number",
+			"Generator",
+			"generator",
+			"license",
+			"License",
+			"license",
+			"licenses"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -184,82 +230,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/projects/cps-crud-api/app.js",
+					"file": "/C/Projects/cps-crud-api/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 656,
+						"buffer_size": 700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								454,
-								454
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/projects/cps-crud-api/routes/products.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1611,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								667,
-								667
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/projects/cps-crud-api/models/product.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								138,
-								154
+								372,
+								372
 							]
 						],
 						"settings":
@@ -274,8 +262,8 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/projects/cps-crud-api/bin/www.js",
+					"buffer": 1,
+					"file": "/C/Projects/cps-crud-api/bin/www.js",
 					"semi_transient": true,
 					"settings":
 					{
@@ -300,17 +288,192 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Projects/cps-crud-api/routes/products.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Projects/cps-crud-api/routes/licenses.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Projects/cps-crud-api/routes/generators.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 58.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Projects/cps-crud-api/models/license.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Projects/cps-crud-api/models/generator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								731,
+								731
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Projects/cps-crud-api/models/product.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 47.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 69.0
 	},
 	"layout":
 	{
@@ -347,7 +510,7 @@
 	"project": "cps-crud-api.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 150.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -361,16 +524,16 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 1250.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"C:\\projects\\cps-client\\cps-client.sublime-project"
+				"C:\\Projects\\cps-client-angular\\cps-client.sublime-project"
 			]
 		],
-		"width": 380.0
+		"width": 950.0
 	},
 	"select_symbol":
 	{
@@ -389,7 +552,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 578.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

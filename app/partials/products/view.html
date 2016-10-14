@@ -1,0 +1,21 @@
+<table class="table producttable">
+  <tr>
+    <td><h3>Details for {{product.name}}</h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>{{product.name}}</td>
+  </tr>
+  <tr>
+    <td>Software code</td>
+    <td>{{product.softwarecode}}</td>
+  </tr>
+  <tr>
+    <td>Download location</td>
+    <td>{{product.downloadlocation}}</td>
+  </tr>
+</table>
+<div>
+  <a class="btn btn-primary" ui-sref="editProduct({id:product._id})">Edit</a>
+</div>
