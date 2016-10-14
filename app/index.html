@@ -23,7 +23,11 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/contact.js"></script>
     <script src="scripts/controllers/nav.js"></script>
+    <script src="scripts/controllers/product.js"></script>
+    <script src="scripts/controllers/license.js"></script>
+    <script src="scripts/controllers/generator.js"></script>
     <script src="scripts/services.js"></script>
     <!-- endbuild -->
 
@@ -36,7 +40,7 @@
     <!-- Add your site or application content here -->
     <div class="header">
       <nav ng-controller="NavController" class="navbar navbar-default" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
           <div class="navbar-header">
 
             <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
@@ -46,18 +50,18 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">CPS Client</a>
+            <a class="navbar-brand" ui-sref="main">CPS Client</a>
           </div>
 
           <div class="navbar-collapse" ng-class="isCollapsed ? 'collapse' : 'in'">
 
             <ul class="nav navbar-nav">
-              <li ng-class="getClass('/')"><a href="#/">Home</a></li>
-              <li ng-class="getClass('/products')"><a ng-href="#/">Products</a></li>
-              <li ng-class="getClass('/licenses')"><a ng-href="#/">Licenses</a></li>
-              <li ng-class="getClass('/generators')"><a ng-href="#/">Generators</a></li>
-              <li ng-class="getClass('/about')"><a ng-href="#/about">About</a></li>
-              <li ng-class="getClass('/contact')"><a ng-href="#/">Contact</a></li>             
+              <li ng-class="getClass('/')"><a ui-sref="main">Home</a></li>
+              <li ng-class="getClass('/products')"><a ui-sref="products">Products</a></li>
+              <li ng-class="getClass('/licenses')"><a ui-sref="licenses">Licenses</a></li>
+              <li ng-class="getClass('/generators')"><a ui-sref="generators">Generators</a></li>
+              <li ng-class="getClass('/about')"><a ui-sref="about">About</a></li>
+              <li ng-class="getClass('/contact')"><a ui-sref="contact">Contact</a></li>             
             </ul>
           </div>
         </div>
@@ -65,7 +69,7 @@
     </div>
 
     <div class="container">
-    <div ng-view=""></div>
+    <div ui-view=""></div>
     </div>
 
     <div class="footer">

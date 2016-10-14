@@ -3,7 +3,7 @@
 angular.module('cpsClientApp')
   .controller('NavController', function ($scope, $location) {
   		$scope.isCollapsed = true;
-    	$scope.$on('$routeChangeSuccess', function () {
+    	$scope.$on('$stateChangeSuccess', function () {
         $scope.isCollapsed = true;
 
         $scope.getClass = function (path) {

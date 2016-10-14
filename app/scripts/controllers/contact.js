@@ -8,7 +8,7 @@
  * Controller of the cpsClientApp
  */
 angular.module('cpsClientApp')
-  .controller('AboutCtrl', function () {
+  .controller('ContactCtrl', function () {
    
    
   });
