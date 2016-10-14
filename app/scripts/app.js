@@ -10,6 +10,7 @@
  */
 angular
   .module('cpsClientApp', [
+    'cpsClientApp.services',
     'ngAnimate',
     'ngCookies',
     'ngResource',

@@ -23,7 +23,8 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/about.js"></script>
-    <script src="scripts/services/productservice.js"></script>
+    <script src="scripts/controllers/nav.js"></script>
+    <script src="scripts/services.js"></script>
     <!-- endbuild -->
 
   </head>
@@ -34,30 +35,33 @@
 
     <!-- Add your site or application content here -->
     <div class="header">
-      <div class="navbar navbar-default" role="navigation">
+      <nav ng-controller="NavController" class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+            <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">cpsClient</a>
+            <a class="navbar-brand" href="#/">CPS Client</a>
           </div>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+          <div class="navbar-collapse" ng-class="isCollapsed ? 'collapse' : 'in'">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
+              <li ng-class="getClass('/')"><a href="#/">Home</a></li>
+              <li ng-class="getClass('/products')"><a ng-href="#/">Products</a></li>
+              <li ng-class="getClass('/licenses')"><a ng-href="#/">Licenses</a></li>
+              <li ng-class="getClass('/generators')"><a ng-href="#/">Generators</a></li>
+              <li ng-class="getClass('/about')"><a ng-href="#/about">About</a></li>
+              <li ng-class="getClass('/contact')"><a ng-href="#/">Contact</a></li>             
             </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </div>
 
     <div class="container">
@@ -66,7 +70,7 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-lock"></span> from Copy Protect Software - http://copyprotectsoftware.com</p>
       </div>
     </div>
 

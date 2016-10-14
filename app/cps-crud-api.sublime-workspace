@@ -15,7 +15,7 @@
 			"file": "/C/projects/cps-crud-api/app.js",
 			"settings":
 			{
-				"buffer_size": 510,
+				"buffer_size": 656,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,7 +23,7 @@
 			"file": "/C/projects/cps-crud-api/routes/products.js",
 			"settings":
 			{
-				"buffer_size": 1669,
+				"buffer_size": 1611,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +31,15 @@
 			"file": "/C/projects/cps-crud-api/models/product.js",
 			"settings":
 			{
-				"buffer_size": 226,
+				"buffer_size": 227,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/projects/cps-crud-api/bin/www.js",
+			"settings":
+			{
+				"buffer_size": 207,
 				"line_ending": "Windows"
 			}
 		}
@@ -176,7 +184,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -185,7 +193,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 510,
+						"buffer_size": 656,
 						"regions":
 						{
 						},
@@ -204,7 +212,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -213,15 +221,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1669,
+						"buffer_size": 1611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1218,
-								1218
+								667,
+								667
 							]
 						],
 						"settings":
@@ -234,7 +242,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -243,7 +251,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 226,
+						"buffer_size": 227,
 						"regions":
 						{
 						},
@@ -263,6 +271,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/projects/cps-crud-api/bin/www.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
