@@ -3,17 +3,68 @@
 	{
 		"selected_items":
 		[
+			[
+				"Main",
+				"MainCtrl"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 3045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/product.js",
+			"settings":
+			{
+				"buffer_size": 1142,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/generator.js",
+			"settings":
+			{
+				"buffer_size": 1182,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 3596,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/license.js",
+			"settings":
+			{
+				"buffer_size": 1129,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "app/scripts/services.js",
 			"settings":
 			{
-				"buffer_size": 229,
-				"line_ending": "Windows",
-				"name": "angular.module('movieApp.services', []).factory('M"
+				"buffer_size": 860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/contact.js",
+			"settings":
+			{
+				"buffer_size": 238,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -64,17 +115,31 @@
 	[
 		"/C/projects/cps-client",
 		"/C/projects/cps-client/app",
-		"/C/projects/cps-client/app/scripts"
+		"/C/projects/cps-client/app/scripts",
+		"/C/projects/cps-client/app/scripts/controllers"
 	],
 	"file_history":
 	[
-		"/C/projects/cps-client/app/scripts/services/productservice.js",
+		"/C/projects/cps-client/app/scripts/controllers/license.js",
+		"/C/projects/cps-client/app/scripts/controllers/generator.js",
+		"/C/projects/cps-client/app/scripts/services.js",
 		"/C/projects/cps-client/bower.json",
+		"/C/projects/cps-client/package.json",
+		"/C/projects/cps-client/app/index.html",
+		"/C/projects/cps-client/app/scripts/partials/generators/edit.html",
+		"/C/projects/cps-client/app/scripts/partials/generators/add.html",
+		"/C/projects/cps-client/app/scripts/partials/generators/view.html",
+		"/C/projects/cps-client/app/scripts/partials/generators/_form.html",
+		"/C/projects/cps-client/app/scripts/controllers/main.js",
+		"/C/projects/cps-client/app/scripts/controllers/nav.js",
+		"/C/projects/cps-client/app/scripts/partials/generators/list.html",
+		"/C/projects/cps-client/app/views/main.html",
+		"/C/projects/cps-client/app/scripts/controllers/about.js",
+		"/C/projects/cps-client/app/scripts/controllers/contact.js",
+		"/C/projects/cps-client/app/views/contact.html",
+		"/C/projects/cps-client/app/scripts/services/productservice.js",
 		"/C/projects/cps-client/app/scripts/app.js",
 		"/C/projects/cps-client/app/styles/main.css",
-		"/C/projects/cps-client/app/views/main.html",
-		"/C/projects/cps-client/app/index.html",
-		"/C/projects/cps-client/app/scripts/controllers/main.js",
 		"/C/projects/cps-client/test/spec/controllers/main.js",
 		"/C/projects/cps-client/gulpfile.js",
 		"/C/projects/cps-client/README.md",
@@ -84,7 +149,6 @@
 		"/C/Users/jxayl0/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/projects/cps-client/dist/scripts/vendor.js",
 		"/C/projects/cps-client/dist/scripts/scripts.js",
-		"/C/projects/cps-client/app/scripts/controllers/about.js",
 		"/C/projects/yo-angular/gulpfile.js",
 		"/C/projects/yo-angular/app/index.html",
 		"/C/projects/yo-angular/package.json",
@@ -124,9 +188,19 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"product",
+			"Product",
+			"product",
+			"Product",
+			"movie",
+			"Movie",
+			"Product",
+			"product",
+			"Product",
+			"product",
 			"ReleaseArtifacts",
 			"zip",
 			"Validation.Integration.AspNet"
@@ -137,6 +211,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"generator",
+			"Generator",
+			"license",
+			"License",
+			"product",
+			"Product",
+			"Generator",
+			"generator",
+			"License",
+			"license"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -147,36 +231,212 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/scripts/services.js",
+					"file": "app/scripts/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 229,
+						"buffer_size": 3045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								224,
-								224
+								679,
+								679
 							]
 						],
 						"settings":
 						{
-							"auto_name": "angular.module('movieApp.services', []).factory('M",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/controllers/product.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/controllers/generator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								986,
+								986
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/scripts/controllers/license.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1129,
+								1129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								740,
+								741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/scripts/controllers/contact.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -188,7 +448,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -225,7 +485,7 @@
 	"project": "cps-client.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
