@@ -1,0 +1,34 @@
+<div class="form-group">
+  <label for="name" class="col-sm-2 control-label">Name</label>
+  <div class="col-sm-10">
+    <input type="text" ng-model="generator.name" class="form-control" id="name" placeholder="Generator name"/>
+  </div>
+</div>
+
+<div class="form-group" ng-class="{'has-error': form.ProductId.$touched && form.ProductId.$invalid}">
+  <label for="ProductId" class="col-sm-2 control-label">Product</label>
+  <div class="col-sm-10">
+  	<select id="ProductId" name="ProductId" class="form-control"
+  			ng-model="generator.ProductId"
+  			ng-required="true"
+  			ng-options="product._id as product.name for product in products">
+  		<option value=""></option> 		
+  	</select>   
+  	<div ng-show="form.$submitted || form.ProductId.$touched">
+  		<span ng-show="form.ProductId.$error.required">Select a product.</span>
+  	</div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="DaysValid" class="col-sm-2 control-label">Days Valid</label>
+  <div class="col-sm-10">
+    <input type="text" ng-model="generator.DaysValid" class="form-control" id="DaysValid" placeholder="Days valid"/>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <input type="submit" class="btn btn-primary" ng-disabled="form.$invalid" value="Save"/>
+  </div>
+</div>

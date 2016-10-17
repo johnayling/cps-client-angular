@@ -1,0 +1,15 @@
+<a ui-sref="newLicense" class="btn-primary btn-lg nodecoration">Add New License</a>
+
+<table class="table licensetable">
+  <tr>
+    <td><h3>All Licenses</h3></td>
+    <td></td>
+  </tr>
+  <tr ng-repeat="license in licenses">
+    <td>{{license.name}}</td>
+    <td>
+      <a class="btn btn-primary" ui-sref="viewLicense({id:license._id})">View</a>
+      <a class="btn btn-danger"  ng-click="deleteLicense(license)">Delete</a>
+    </td>
+  </tr>
+</table>

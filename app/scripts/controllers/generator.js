@@ -1,8 +1,9 @@
 'use strict';
 
-angular.module('cpsClientApp').controller('GeneratorListController',function($scope,$state,popupService,$window,Generator){
+angular.module('cpsClientApp').controller('GeneratorListController',function($scope,$state,popupService,$window,Generator,Product){
 
     $scope.generators=Generator.query();
+    $scope.products = Product.query();
 
     $scope.deleteGenerator=function(generator){
         if(popupService.showPopup('Really delete this?')){
@@ -16,9 +17,10 @@ angular.module('cpsClientApp').controller('GeneratorListController',function($sc
 
     $scope.generator=Generator.get({id:$stateParams.id});
 
-}).controller('GeneratorCreateController',function($scope,$state,$stateParams,Generator){
+}).controller('GeneratorCreateController',function($scope,$state,$stateParams,Generator,Product){
 
     $scope.generator=new Generator();
+    $scope.products = Product.query();
 
     $scope.addGenerator=function(){
         $scope.generator.$save(function(){
@@ -26,7 +28,7 @@ angular.module('cpsClientApp').controller('GeneratorListController',function($sc
         });
     };
 
-}).controller('GeneratorEditController',function($scope,$state,$stateParams,Generator){
+}).controller('GeneratorEditController',function($scope,$state,$stateParams,Generator,Product){
 
     $scope.updateGenerator=function(){
         $scope.generator.$update(function(){
@@ -36,6 +38,7 @@ angular.module('cpsClientApp').controller('GeneratorListController',function($sc
 
     $scope.loadGenerator=function(){
         $scope.generator=Generator.get({id:$stateParams.id});
+        $scope.products = Product.query();
     };
 
     $scope.loadGenerator();

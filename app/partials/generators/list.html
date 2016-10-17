@@ -1,0 +1,15 @@
+<a ui-sref="newGenerator" class="btn-primary btn-lg nodecoration">Add New Generator</a>
+
+<table class="table generatortable">
+  <tr>
+    <td><h3>All Generators</h3></td>
+    <td></td>
+  </tr>
+  <tr ng-repeat="generator in generators">
+    <td>{{generator.name}}</td>
+    <td>
+      <a class="btn btn-primary" ui-sref="viewGenerator({id:generator._id})">View</a>
+      <a class="btn btn-danger"  ng-click="deleteGenerator(generator)">Delete</a>
+    </td>
+  </tr>
+</table>
